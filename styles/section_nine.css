@@ -1,4 +1,57 @@
 /* Author - Chetan */
 footer {
-  background-color: red;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.about_us_title {
+  margin: 20px 0;
+}
+
+.about_us_title h1 {
+  color: rgb(117, 42, 187);
+  font-weight: bold;
+}
+
+section.about_us .about_us_info .about_us_details {
+  padding: 20px;
+  text-align: justify;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+section.about_us .about_us_info .about_us_gibberish {
+  padding: 20px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  text-align: justify;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+section.about_us .about_us_sm_links {
+  background-color: #6a4aa1;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+section.about_us .about_us_sm_links i {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 960px) {
+  section.about_us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  section.about_us .about_us_sm_links {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
 }
