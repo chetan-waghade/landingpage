@@ -1,9 +1,22 @@
 
-img .card-image{
-    object-fit: contain;
-    height: 30px;
-    width: 80px;
-}
+.card-image {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .card-image img {
+    margin-top: 12px;
+    
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 p{
     color: black;
     font-style: italic;
@@ -12,13 +25,7 @@ p{
     font-size: 15px;
 }
 
-section .card-image {
-        position: relative;
-        margin: auto;
-        padding: 10px 0 10px 20px;
-        height: auto;
-        width: 70%;
-    }
+
 
 
 section .title{
