@@ -1,0 +1,38 @@
+
+.card-image {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .card-image img {
+    margin-top: 12px;
+    
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+p{
+    color: black;
+    font-style: italic;
+    font-family: 'Open Sans';
+    font-weight: 0;
+    font-size: 15px;
+}
+
+
+
+
+section .title{
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #6a4aa1;
+    padding-bottom: 0;
+}
