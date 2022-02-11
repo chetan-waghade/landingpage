@@ -1,7 +1,6 @@
 /* Author - Chetan */
 footer {
   font-family: "Montserrat", sans-serif;
-  background-color: #f2f2f2;
 }
 
 .about_us_title {
@@ -11,6 +10,10 @@ footer {
 .about_us_title h1 {
   color: rgb(117, 42, 187);
   font-weight: bold;
+}
+
+section.about_us {
+  background-color: #f2f2f2;
 }
 
 section.about_us .about_us_info .about_us_details {
@@ -43,6 +46,7 @@ section.about_us .about_us_sm_links i {
   cursor: pointer;
 }
 
+/* For Desktop */
 @media screen and (min-width: 960px) {
   section.about_us {
     display: flex;
